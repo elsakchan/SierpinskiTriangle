@@ -1,7 +1,7 @@
 private int limit = 750;
-public void settings() {
-    size(800, 750);
-  }
+public void setup() {
+  size(800, 750);
+}
 public void draw(){
   background(0);
   sierpinski(59, 700, 680);
