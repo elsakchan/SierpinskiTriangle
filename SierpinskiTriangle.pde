@@ -1,6 +1,5 @@
-public class Sierpinski extends PApplet {
-  private int limit = 750;
-  public void settings() {
+private int limit = 750;
+public void settings() {
     size(800, 750);
   }
 public void draw(){
@@ -21,4 +20,3 @@ public void sierpinski(int x, int y, int len) {
    }
    fill((int)(Math.random()*256),(int)(Math.random()*256),(int)((Math.random()*256)+100));
   }
-}
