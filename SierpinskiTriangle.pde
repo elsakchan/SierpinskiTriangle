@@ -2,7 +2,7 @@ import processing.core.PApplet;
 
 public class Sierpinski_Triangle extends PApplet {
   private int limit = 750;
-  public void setup() {
+  public void settings() {
     size(800, 750);
   }
 public void draw(){
